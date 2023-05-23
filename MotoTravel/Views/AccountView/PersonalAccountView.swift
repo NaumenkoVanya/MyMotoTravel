@@ -61,6 +61,7 @@ struct AccountDetailRowView: View {
     }
 }
 
+
 struct PersonalAccountView_Previews: PreviewProvider {
     static var previews: some View {
         PersonalAccountView()
