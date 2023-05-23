@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA7F41B429E2168300BB0460 /* MotoTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41B329E2168300BB0460 /* MotoTravelApp.swift */; };
+		CA7F41B629E2168300BB0460 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41B529E2168300BB0460 /* ContentView.swift */; };
+		CA7F41B829E2168400BB0460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7F41B729E2168400BB0460 /* Assets.xcassets */; };
+		CA7F41BB29E2168400BB0460 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7F41BA29E2168400BB0460 /* Preview Assets.xcassets */; };
+		CA7F41BD29E2168400BB0460 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41BC29E2168400BB0460 /* Persistence.swift */; };
+		CA7F41C029E2168400BB0460 /* MotoTravel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41BE29E2168400BB0460 /* MotoTravel.xcdatamodeld */; };
+		CA7F41CA29E2168400BB0460 /* MotoTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41C929E2168400BB0460 /* MotoTravelTests.swift */; };
+		CA7F41D429E2168500BB0460 /* MotoTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41D329E2168500BB0460 /* MotoTravelUITests.swift */; };
+		CA7F41D629E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41D529E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift */; };
+		CA84592429E3468100CF181A /* NewsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592329E3468100CF181A /* NewsUIView.swift */; };
+		CA84592629E346AF00CF181A /* StoriesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592529E346AF00CF181A /* StoriesUIView.swift */; };
+		CA84592829E346FD00CF181A /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592729E346FD00CF181A /* MapUIView.swift */; };
+		CA84592A29E3472800CF181A /* AccountUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592929E3472800CF181A /* AccountUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA7F41C629E2168400BB0460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7F41A829E2168300BB0460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7F41AF29E2168300BB0460;
+			remoteInfo = MotoTravel;
+		};
+		CA7F41D029E2168500BB0460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA7F41A829E2168300BB0460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA7F41AF29E2168300BB0460;
+			remoteInfo = MotoTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA7F41B029E2168300BB0460 /* MotoTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F41B329E2168300BB0460 /* MotoTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelApp.swift; sourceTree = "<group>"; };
+		CA7F41B529E2168300BB0460 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA7F41B729E2168400BB0460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA7F41BA29E2168400BB0460 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA7F41BC29E2168400BB0460 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CA7F41BF29E2168400BB0460 /* MotoTravel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MotoTravel.xcdatamodel; sourceTree = "<group>"; };
+		CA7F41C529E2168400BB0460 /* MotoTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F41C929E2168400BB0460 /* MotoTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelTests.swift; sourceTree = "<group>"; };
+		CA7F41CF29E2168500BB0460 /* MotoTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F41D329E2168500BB0460 /* MotoTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelUITests.swift; sourceTree = "<group>"; };
+		CA7F41D529E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA84592329E3468100CF181A /* NewsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUIView.swift; sourceTree = "<group>"; };
+		CA84592529E346AF00CF181A /* StoriesUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesUIView.swift; sourceTree = "<group>"; };
+		CA84592729E346FD00CF181A /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
+		CA84592929E3472800CF181A /* AccountUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA7F41AD29E2168300BB0460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F41C229E2168400BB0460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F41CC29E2168500BB0460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA48338F2A16B756003E93EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F41B529E2168300BB0460 /* ContentView.swift */,
+				CA4833902A16B772003E93EE /* NewsView */,
+				CA4833912A16B785003E93EE /* Stories */,
+				CA4833922A16B7A0003E93EE /* MapView */,
+				CA4833932A16B7AA003E93EE /* AccountView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA4833902A16B772003E93EE /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				CA84592329E3468100CF181A /* NewsUIView.swift */,
+			);
+			path = NewsView;
+			sourceTree = "<group>";
+		};
+		CA4833912A16B785003E93EE /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				CA84592529E346AF00CF181A /* StoriesUIView.swift */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		CA4833922A16B7A0003E93EE /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				CA84592729E346FD00CF181A /* MapUIView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		CA4833932A16B7AA003E93EE /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				CA84592929E3472800CF181A /* AccountUIView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		CA7F41A729E2168300BB0460 = {
+			isa = PBXGroup;
+			children = (
+				CA7F41B229E2168300BB0460 /* MotoTravel */,
+				CA7F41C829E2168400BB0460 /* MotoTravelTests */,
+				CA7F41D229E2168500BB0460 /* MotoTravelUITests */,
+				CA7F41B129E2168300BB0460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA7F41B129E2168300BB0460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F41B029E2168300BB0460 /* MotoTravel.app */,
+				CA7F41C529E2168400BB0460 /* MotoTravelTests.xctest */,
+				CA7F41CF29E2168500BB0460 /* MotoTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA7F41B229E2168300BB0460 /* MotoTravel */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F41B329E2168300BB0460 /* MotoTravelApp.swift */,
+				CA48338F2A16B756003E93EE /* Views */,
+				CA7F41B729E2168400BB0460 /* Assets.xcassets */,
+				CA7F41BC29E2168400BB0460 /* Persistence.swift */,
+				CA7F41BE29E2168400BB0460 /* MotoTravel.xcdatamodeld */,
+				CA7F41B929E2168400BB0460 /* Preview Content */,
+			);
+			path = MotoTravel;
+			sourceTree = "<group>";
+		};
+		CA7F41B929E2168400BB0460 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F41BA29E2168400BB0460 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA7F41C829E2168400BB0460 /* MotoTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F41C929E2168400BB0460 /* MotoTravelTests.swift */,
+			);
+			path = MotoTravelTests;
+			sourceTree = "<group>";
+		};
+		CA7F41D229E2168500BB0460 /* MotoTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA7F41D329E2168500BB0460 /* MotoTravelUITests.swift */,
+				CA7F41D529E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift */,
+			);
+			path = MotoTravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA7F41AF29E2168300BB0460 /* MotoTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7F41D929E2168500BB0460 /* Build configuration list for PBXNativeTarget "MotoTravel" */;
+			buildPhases = (
+				CA7F41AC29E2168300BB0460 /* Sources */,
+				CA7F41AD29E2168300BB0460 /* Frameworks */,
+				CA7F41AE29E2168300BB0460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoTravel;
+			packageProductDependencies = (
+			);
+			productName = MotoTravel;
+			productReference = CA7F41B029E2168300BB0460 /* MotoTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA7F41C429E2168400BB0460 /* MotoTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7F41DC29E2168500BB0460 /* Build configuration list for PBXNativeTarget "MotoTravelTests" */;
+			buildPhases = (
+				CA7F41C129E2168400BB0460 /* Sources */,
+				CA7F41C229E2168400BB0460 /* Frameworks */,
+				CA7F41C329E2168400BB0460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7F41C729E2168400BB0460 /* PBXTargetDependency */,
+			);
+			name = MotoTravelTests;
+			productName = MotoTravelTests;
+			productReference = CA7F41C529E2168400BB0460 /* MotoTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA7F41CE29E2168500BB0460 /* MotoTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7F41DF29E2168500BB0460 /* Build configuration list for PBXNativeTarget "MotoTravelUITests" */;
+			buildPhases = (
+				CA7F41CB29E2168500BB0460 /* Sources */,
+				CA7F41CC29E2168500BB0460 /* Frameworks */,
+				CA7F41CD29E2168500BB0460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA7F41D129E2168500BB0460 /* PBXTargetDependency */,
+			);
+			name = MotoTravelUITests;
+			productName = MotoTravelUITests;
+			productReference = CA7F41CF29E2168500BB0460 /* MotoTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA7F41A829E2168300BB0460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CA7F41AF29E2168300BB0460 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CA7F41C429E2168400BB0460 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CA7F41AF29E2168300BB0460;
+					};
+					CA7F41CE29E2168500BB0460 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = CA7F41AF29E2168300BB0460;
+					};
+				};
+			};
+			buildConfigurationList = CA7F41AB29E2168300BB0460 /* Build configuration list for PBXProject "MotoTravel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA7F41A729E2168300BB0460;
+			packageReferences = (
+			);
+			productRefGroup = CA7F41B129E2168300BB0460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA7F41AF29E2168300BB0460 /* MotoTravel */,
+				CA7F41C429E2168400BB0460 /* MotoTravelTests */,
+				CA7F41CE29E2168500BB0460 /* MotoTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA7F41AE29E2168300BB0460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F41BB29E2168400BB0460 /* Preview Assets.xcassets in Resources */,
+				CA7F41B829E2168400BB0460 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F41C329E2168400BB0460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F41CD29E2168500BB0460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA7F41AC29E2168300BB0460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA84592629E346AF00CF181A /* StoriesUIView.swift in Sources */,
+				CA7F41C029E2168400BB0460 /* MotoTravel.xcdatamodeld in Sources */,
+				CA84592829E346FD00CF181A /* MapUIView.swift in Sources */,
+				CA84592429E3468100CF181A /* NewsUIView.swift in Sources */,
+				CA84592A29E3472800CF181A /* AccountUIView.swift in Sources */,
+				CA7F41BD29E2168400BB0460 /* Persistence.swift in Sources */,
+				CA7F41B629E2168300BB0460 /* ContentView.swift in Sources */,
+				CA7F41B429E2168300BB0460 /* MotoTravelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F41C129E2168400BB0460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F41CA29E2168400BB0460 /* MotoTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7F41CB29E2168500BB0460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA7F41D429E2168500BB0460 /* MotoTravelUITests.swift in Sources */,
+				CA7F41D629E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA7F41C729E2168400BB0460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7F41AF29E2168300BB0460 /* MotoTravel */;
+			targetProxy = CA7F41C629E2168400BB0460 /* PBXContainerItemProxy */;
+		};
+		CA7F41D129E2168500BB0460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA7F41AF29E2168300BB0460 /* MotoTravel */;
+			targetProxy = CA7F41D029E2168500BB0460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA7F41D729E2168500BB0460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA7F41D829E2168500BB0460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA7F41DA29E2168500BB0460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoTravel/Preview Content\"";
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.MotoTravel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA7F41DB29E2168500BB0460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MotoTravel/Preview Content\"";
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.MotoTravel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA7F41DD29E2168500BB0460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.MotoTravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotoTravel";
+			};
+			name = Debug;
+		};
+		CA7F41DE29E2168500BB0460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.MotoTravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoTravel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MotoTravel";
+			};
+			name = Release;
+		};
+		CA7F41E029E2168500BB0460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.MotoTravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotoTravel;
+			};
+			name = Debug;
+		};
+		CA7F41E129E2168500BB0460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VY6BU9F56X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "white-wolf.MotoTravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MotoTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA7F41AB29E2168300BB0460 /* Build configuration list for PBXProject "MotoTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F41D729E2168500BB0460 /* Debug */,
+				CA7F41D829E2168500BB0460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7F41D929E2168500BB0460 /* Build configuration list for PBXNativeTarget "MotoTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F41DA29E2168500BB0460 /* Debug */,
+				CA7F41DB29E2168500BB0460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7F41DC29E2168500BB0460 /* Build configuration list for PBXNativeTarget "MotoTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F41DD29E2168500BB0460 /* Debug */,
+				CA7F41DE29E2168500BB0460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA7F41DF29E2168500BB0460 /* Build configuration list for PBXNativeTarget "MotoTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7F41E029E2168500BB0460 /* Debug */,
+				CA7F41E129E2168500BB0460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA7F41BE29E2168400BB0460 /* MotoTravel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA7F41BF29E2168400BB0460 /* MotoTravel.xcdatamodel */,
+			);
+			currentVersion = CA7F41BF29E2168400BB0460 /* MotoTravel.xcdatamodel */;
+			path = MotoTravel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA7F41A829E2168300BB0460 /* Project object */;
+}
