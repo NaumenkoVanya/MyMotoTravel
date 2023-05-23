@@ -28,7 +28,7 @@ struct ContentViewTwo: View {
                     Image(systemName: "map")
                     Text("Map")
                 }
-            AccountUIView()
+            PersonalAccountView()
                 .tabItem {
                     Image(systemName: "person.crop.square")
                     Text("Account")

@@ -16,10 +16,10 @@
 		CA7F41CA29E2168400BB0460 /* MotoTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41C929E2168400BB0460 /* MotoTravelTests.swift */; };
 		CA7F41D429E2168500BB0460 /* MotoTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41D329E2168500BB0460 /* MotoTravelUITests.swift */; };
 		CA7F41D629E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41D529E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift */; };
+		CA80C6F02A1CD05200B6D7CD /* PersonalAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA80C6EF2A1CD05200B6D7CD /* PersonalAccountView.swift */; };
 		CA84592429E3468100CF181A /* NewsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592329E3468100CF181A /* NewsUIView.swift */; };
 		CA84592629E346AF00CF181A /* StoriesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592529E346AF00CF181A /* StoriesUIView.swift */; };
 		CA84592829E346FD00CF181A /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592729E346FD00CF181A /* MapUIView.swift */; };
-		CA84592A29E3472800CF181A /* AccountUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592929E3472800CF181A /* AccountUIView.swift */; };
 		CAEB37C82A1CBFFD0003E780 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB37C72A1CBFFD0003E780 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +53,10 @@
 		CA7F41CF29E2168500BB0460 /* MotoTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7F41D329E2168500BB0460 /* MotoTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelUITests.swift; sourceTree = "<group>"; };
 		CA7F41D529E2168500BB0460 /* MotoTravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA80C6EF2A1CD05200B6D7CD /* PersonalAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalAccountView.swift; sourceTree = "<group>"; };
 		CA84592329E3468100CF181A /* NewsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUIView.swift; sourceTree = "<group>"; };
 		CA84592529E346AF00CF181A /* StoriesUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesUIView.swift; sourceTree = "<group>"; };
 		CA84592729E346FD00CF181A /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
-		CA84592929E3472800CF181A /* AccountUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUIView.swift; sourceTree = "<group>"; };
 		CAEB37C72A1CBFFD0003E780 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +125,7 @@
 		CA4833932A16B7AA003E93EE /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
-				CA84592929E3472800CF181A /* AccountUIView.swift */,
+				CA80C6EF2A1CD05200B6D7CD /* PersonalAccountView.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -327,8 +327,8 @@
 				CA7F41C029E2168400BB0460 /* MotoTravel.xcdatamodeld in Sources */,
 				CA84592829E346FD00CF181A /* MapUIView.swift in Sources */,
 				CA84592429E3468100CF181A /* NewsUIView.swift in Sources */,
-				CA84592A29E3472800CF181A /* AccountUIView.swift in Sources */,
 				CA7F41BD29E2168400BB0460 /* Persistence.swift in Sources */,
+				CA80C6F02A1CD05200B6D7CD /* PersonalAccountView.swift in Sources */,
 				CA7F41B629E2168300BB0460 /* ContentViewTwo.swift in Sources */,
 				CAEB37C82A1CBFFD0003E780 /* MapView.swift in Sources */,
 				CA7F41B429E2168300BB0460 /* MotoTravelApp.swift in Sources */,

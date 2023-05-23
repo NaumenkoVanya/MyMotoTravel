@@ -10,7 +10,7 @@ import MapKit
 import CoreLocation
 
 struct MapUIView: View {
-//    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: .infinity, longitude: .infinity), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
+    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: .infinity, longitude: .infinity), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
     
     var body: some View {
         MapView().edgesIgnoringSafeArea(.all)
