@@ -13,7 +13,7 @@ struct MotoTravelApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentViewTwo()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

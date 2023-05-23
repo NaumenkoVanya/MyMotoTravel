@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA7F41B429E2168300BB0460 /* MotoTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41B329E2168300BB0460 /* MotoTravelApp.swift */; };
-		CA7F41B629E2168300BB0460 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41B529E2168300BB0460 /* ContentView.swift */; };
+		CA7F41B629E2168300BB0460 /* ContentViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41B529E2168300BB0460 /* ContentViewTwo.swift */; };
 		CA7F41B829E2168400BB0460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7F41B729E2168400BB0460 /* Assets.xcassets */; };
 		CA7F41BB29E2168400BB0460 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7F41BA29E2168400BB0460 /* Preview Assets.xcassets */; };
 		CA7F41BD29E2168400BB0460 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7F41BC29E2168400BB0460 /* Persistence.swift */; };
@@ -20,6 +20,7 @@
 		CA84592629E346AF00CF181A /* StoriesUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592529E346AF00CF181A /* StoriesUIView.swift */; };
 		CA84592829E346FD00CF181A /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592729E346FD00CF181A /* MapUIView.swift */; };
 		CA84592A29E3472800CF181A /* AccountUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA84592929E3472800CF181A /* AccountUIView.swift */; };
+		CAEB37C82A1CBFFD0003E780 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB37C72A1CBFFD0003E780 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,7 @@
 /* Begin PBXFileReference section */
 		CA7F41B029E2168300BB0460 /* MotoTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7F41B329E2168300BB0460 /* MotoTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoTravelApp.swift; sourceTree = "<group>"; };
-		CA7F41B529E2168300BB0460 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA7F41B529E2168300BB0460 /* ContentViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewTwo.swift; sourceTree = "<group>"; };
 		CA7F41B729E2168400BB0460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7F41BA29E2168400BB0460 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA7F41BC29E2168400BB0460 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		CA84592529E346AF00CF181A /* StoriesUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesUIView.swift; sourceTree = "<group>"; };
 		CA84592729E346FD00CF181A /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
 		CA84592929E3472800CF181A /* AccountUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUIView.swift; sourceTree = "<group>"; };
+		CAEB37C72A1CBFFD0003E780 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 		CA48338F2A16B756003E93EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CA7F41B529E2168300BB0460 /* ContentView.swift */,
+				CA7F41B529E2168300BB0460 /* ContentViewTwo.swift */,
 				CA4833902A16B772003E93EE /* NewsView */,
 				CA4833912A16B785003E93EE /* Stories */,
 				CA4833922A16B7A0003E93EE /* MapView */,
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				CA84592729E346FD00CF181A /* MapUIView.swift */,
+				CAEB37C72A1CBFFD0003E780 /* MapView.swift */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = CA7F41A729E2168300BB0460;
 			packageReferences = (
@@ -325,7 +329,8 @@
 				CA84592429E3468100CF181A /* NewsUIView.swift in Sources */,
 				CA84592A29E3472800CF181A /* AccountUIView.swift in Sources */,
 				CA7F41BD29E2168400BB0460 /* Persistence.swift in Sources */,
-				CA7F41B629E2168300BB0460 /* ContentView.swift in Sources */,
+				CA7F41B629E2168300BB0460 /* ContentViewTwo.swift in Sources */,
+				CAEB37C82A1CBFFD0003E780 /* MapView.swift in Sources */,
 				CA7F41B429E2168300BB0460 /* MotoTravelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,10 +421,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING1 = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				wef = wf;
 			};
 			name = Debug;
 		};
@@ -470,10 +477,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING1 = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				wef = wf;
 			};
 			name = Release;
 		};
@@ -488,6 +497,8 @@
 				DEVELOPMENT_TEAM = VY6BU9F56X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To add the necessary keys and permissions to your project's Info.plist file for location usage, follow these steps:\n\nIn Xcode, locate your project in the Project Navigator (left sidebar).\nSelect your project's target.\nGo to the \"Info\" tab.\nExpand the \"Custom iOS Target Properties\" section.\nClick on the \"+\" button to add a new row.\nIn the new row, enter the following information:\nKey: NSLocationWhenInUseUsageDescription\nValue: Enter a description that explains why your app needs access to the user's location. For example, \"This app uses your location to provide relevant information nearby.\"\nIf you also require background location updates, add another row with the following information:\nKey: NSLocationAlwaysAndWhenInUseUsageDescription\nValue: Enter a description similar to the one provided above.\nSave the changes to the Info.plist file.\nBy adding these keys and descriptions, you provide the necessary explanations for why your app requires access to the user's location. This is an important step to comply with Apple's guidelines and ensure a smooth review process when submitting your app to the App Store.\n\nRemember to request location authorization from the user in your app's code as shown in the previous example using CLLocationManager.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to provide relevant information nearby.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -517,6 +528,8 @@
 				DEVELOPMENT_TEAM = VY6BU9F56X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "To add the necessary keys and permissions to your project's Info.plist file for location usage, follow these steps:\n\nIn Xcode, locate your project in the Project Navigator (left sidebar).\nSelect your project's target.\nGo to the \"Info\" tab.\nExpand the \"Custom iOS Target Properties\" section.\nClick on the \"+\" button to add a new row.\nIn the new row, enter the following information:\nKey: NSLocationWhenInUseUsageDescription\nValue: Enter a description that explains why your app needs access to the user's location. For example, \"This app uses your location to provide relevant information nearby.\"\nIf you also require background location updates, add another row with the following information:\nKey: NSLocationAlwaysAndWhenInUseUsageDescription\nValue: Enter a description similar to the one provided above.\nSave the changes to the Info.plist file.\nBy adding these keys and descriptions, you provide the necessary explanations for why your app requires access to the user's location. This is an important step to comply with Apple's guidelines and ensure a smooth review process when submitting your app to the App Store.\n\nRemember to request location authorization from the user in your app's code as shown in the previous example using CLLocationManager.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to provide relevant information nearby.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
