@@ -40,6 +40,7 @@ struct PersonalAccountView: View {
         }
         .padding()
     }
+        
 }
 
 struct AccountDetailRowView: View {

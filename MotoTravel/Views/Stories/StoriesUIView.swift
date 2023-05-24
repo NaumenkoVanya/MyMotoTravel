@@ -40,9 +40,9 @@ struct StoriesUIView: View {
                     Image(systemName: "message")
                         .foregroundColor(.gray)
 //
-//                    Text("\(post.comments.count) Comments")
+//                    Text("\($post.comments.count) Comments")
 //                        .foregroundColor(.gray)
-                
+//
                     Spacer()
                 
 //                    Text(post.dateString)
