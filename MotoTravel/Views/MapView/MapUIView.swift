@@ -23,10 +23,22 @@ struct MapUIView: View {
                 .onAppear {
                     determineUserLocation()
             }
-            TextField("City", text: $search)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
-                .position(CGPoint(x: 215, y: 20))
+            VStack {
+                TextField("City", text: $search)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .padding()
+                    .position(CGPoint(x: 200, y: 20))
+                Button {
+                    
+                } label: {
+                    Image(systemName: "paperplane.fill")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 30,height: 30)
+                    
+                }.position(CGPoint(x: 350, y: .bitWidth))
+            }
+            
         }
     }
     

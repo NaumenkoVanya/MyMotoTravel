@@ -8,21 +8,25 @@
 import SwiftUI
 import CoreData
 
+
 // MARK: - StoriesUIView
 
 struct StoriesUIView: View {
-    
+
     @State var post = [
-        Post(title: "First post", body: "This is my first post!", author: "John Doe", creationDate: Date()),
-        Post(title: "Second post", body: "This is my second post!", author: "Jane Doe", creationDate: Date()),
+        Post1(title: "First post", body: "This is my first post!", author: "John Doe", creationDate: Date()),
+        Post1(title: "Second post", body: "This is my second post!", author: "Jane Doe", creationDate: Date()),
         ]
+
     var body: some View {
+       
         HStack(alignment: .top, spacing: 16) {
             Image(systemName: "person.circle")
                 .font(.system(size: 64))
                 .foregroundColor(.gray)
         
             VStack(alignment: .leading, spacing: 8) {
+          
                 Text(post.description)
                     .font(.headline)
 
@@ -63,15 +67,15 @@ struct StoriesUIView_Previews: PreviewProvider {
     }
 }
 
-struct Post{
+struct Post1{
   //  let id: UUID
     let title: String
     let body: String
     let author: String
     let creationDate: Date
-    
+
     var description: String {
             return "\(title)\nby \(author)\non \(creationDate)\n\(body)"
         }
-    
+
 }
